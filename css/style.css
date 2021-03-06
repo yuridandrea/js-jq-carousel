@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: whitesmoke;
+}
+.box {
+  width: 90%;
+  margin: 10vh auto;
+  /* background-color: blue; */
+}
+
+.shev {
+  display: flex;
+  align-items: center;
+}
+.shev i {
+  font-size: 50px;
+  color: gray;
+  opacity: 0.2;
+  margin: 0 70px;
+}
+.shev i:hover {
+  color: rgb(175, 175, 175);
+  opacity: 1;
+  cursor: pointer;
+}
+.shev i:active {
+  color: rgb(73, 71, 71);
+  opacity: 1;
+}
+
+.box-pic {
+  width: 80%;
+  height: 70vh;
+  margin: 0 auto;
+}
+.box-pic img {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+ img.active {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.box-balls { 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 10%;
+  height: 10vh;
+  margin: 0 auto;
+  /* background-color: green; */
+}
+.box-balls i {
+  font-size: 20px;
+  color: gray;
+  opacity: 0.2;
+  cursor: pointer;
+}
+.box-balls i:hover {
+  color: rgb(175, 175, 175);
+    opacity: 0.7;
+}
+.box-balls .active {
+  color: rgb(175, 175, 175);
+  opacity: 1;
+}
